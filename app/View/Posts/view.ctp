@@ -22,7 +22,7 @@ echo $this->Form->input("Comment.post_id", array("type"=>"hidden", "value"=>$pos
 echo $this->Form->end("post comment");
 ?>
 
-<script src="https://code.jquery.com/jquery-1.7.2.min.js">
+<script>
 $(function() {
 	$("a.delete").click(function(e){
 		if(confirm("sure?")){
