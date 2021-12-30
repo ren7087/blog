@@ -18,7 +18,7 @@ echo $this->Html->link("削除", "#", array("class"=>"delete", "data-post-id"=>$
 <?php  echo  $this->Html->link("Add post", array("controller"=>"posts", "action"=>"add")); 
 ?>
 
-<script>
+<script src="https://code.jquery.com/jquery-1.7.2.min.js">
 $(function(){
 	$("a.delete").click(function(e){
 		if(confirm("sure?")){
